@@ -81,7 +81,7 @@ This is achieved by linking the automation_user to the previously created IAM Ro
  On Windows we downloaded, ran the installer and verify the installation for the AWS Command Line Interface(CLI).
 
  1. * Download the installer:
- Visit the <ins>official AWS CLI Version 2  
+ Visit the <ins>official AWS CLI Version 2  download page and <ins>download the MSI installer for Windows
 
  
  The AWS CLI is a tool that allows you to interact with AWS services directly from your terminal enabling automation and simplification of AWS resource management.
@@ -128,8 +128,8 @@ This is achieved by linking the automation_user to the previously created IAM Ro
 
    **Testing the Configuration**
 
-    Now we verify tht our AWS CLI is configured correctly and can communicate with AWS services.
-    We try running a basic command to list all the AWS regions
+    Now we verify that our AWS CLI is configured correctly and can communicate with AWS services.
+    We try running a basic command to list all the AWS regions.
 
     aws ec2 describe-regions --output table
 
